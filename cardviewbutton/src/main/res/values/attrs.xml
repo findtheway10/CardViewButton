@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CardViewButton">
+        <attr name="centerIconButtonColor" format="color" />
+        <attr name="centerIconButtonText" format="reference|string" />
+        <attr name="centerIconButtonImageResource" format="reference|integer" />
+        <attr name="centerIconButtonTextColor" format="reference|integer" />
+        <attr name="centerIconButtonTextSize" format="dimension" />
+        <attr name="centerIconButtonFontFamily" format="reference|string" />
+    </declare-styleable>
+
+</resources>

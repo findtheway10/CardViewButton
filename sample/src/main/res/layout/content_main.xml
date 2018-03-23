@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.daekyung.cardviewbutton.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <com.daekyung.cardviewbutton.CardViewButton
+        android:id="@+id/button_google_login"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:centerIconButtonColor="@color/googleBlue"
+        app:centerIconButtonFontFamily="@string/font_roboto_medium"
+        app:centerIconButtonImageResource="@drawable/google"
+        app:centerIconButtonText="@string/google_login"
+        app:centerIconButtonTextColor="@color/pureWhite"
+        app:centerIconButtonTextSize="14sp" />
+
+    <com.daekyung.cardviewbutton.CardViewButton
+        android:id="@+id/button_face_book_login"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        app:centerIconButtonColor="@color/faceBookBlue"
+        app:centerIconButtonFontFamily="@string/font_roboto_medium"
+        app:centerIconButtonImageResource="@drawable/facebook"
+        app:centerIconButtonText="@string/face_book_login"
+        app:centerIconButtonTextColor="@color/pureWhite"
+        app:centerIconButtonTextSize="14sp" />
+
+    <com.daekyung.cardviewbutton.CardViewButton
+        android:id="@+id/button_get_point"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:centerIconButtonColor="@color/grapefruit"
+        app:centerIconButtonFontFamily="@string/font_roboto_medium"
+        app:centerIconButtonImageResource="@null"
+        app:centerIconButtonText="@string/get_point"
+        app:centerIconButtonTextColor="@color/pureWhite"
+        app:centerIconButtonTextSize="14sp" />
+
+    <com.daekyung.cardviewbutton.CardViewButton
+        android:id="@+id/button_go_home"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        app:centerIconButtonColor="@color/colorPrimary"
+        app:centerIconButtonFontFamily="@string/font_roboto_medium"
+        app:centerIconButtonImageResource="@null"
+        app:centerIconButtonText="@string/go_home"
+        app:centerIconButtonTextColor="@color/pureWhite"
+        app:centerIconButtonTextSize="14sp" />
+
+</LinearLayout>

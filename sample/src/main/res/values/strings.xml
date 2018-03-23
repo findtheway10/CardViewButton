@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CardViewButton</string>
+
+    <string name="font_roboto_regular">sans-serif</string>
+    <string name="font_roboto_light">sans-serif-light</string>
+    <string name="font_roboto_condensed">sans-serif-condensed</string>
+    <string name="font_thin">sans-serif-thin</string>
+    <string name="font_roboto_medium">sans-serif-medium</string>
+
+    <string name="get_point">Get point!</string>
+    <string name="go_home">Go Home</string>
+
+    <string name="google_login">Continue with Google</string>
+    <string name="face_book_login">Continue with Facebook</string>
+</resources>
