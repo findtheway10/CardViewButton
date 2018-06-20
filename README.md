@@ -16,6 +16,6 @@ allprojects {
 Add the dependency
 ```
 dependencies {
-	implementation 'com.github.findtheway10:CardViewButton:1.0.1'
+	implementation 'com.github.findtheway10:CardViewButton:1.0.2'
 }
 ```
