@@ -40,7 +40,7 @@ publish {
     userOrg = 'none'
     groupId = 'com.daekyung.cardviewbutton'
     artifactId = 'cardviewbutton-release'
-    publishVersion = '1.0.3'
+    publishVersion = '1.0.4'
     desc = 'description'
     website = 'https://github.com/findtheway10/CardViewButton'
 }
